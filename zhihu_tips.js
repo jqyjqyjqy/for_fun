@@ -1,5 +1,6 @@
 // 泼油猴 greaseonkey 
 // ==UserScript==
+// @auther      jq
 // @name        zhihu 页面书签
 // @namespace   http://www.zhihu.com/question/
 // @description 显示出书签链接，点击加书签
