@@ -1,4 +1,4 @@
-// 泼油猴 greaseonkey 
+// 泼油猴 greaseMonkey 
 // ==UserScript==
 // @auther      jq
 // @name        zhihu 页面书签
