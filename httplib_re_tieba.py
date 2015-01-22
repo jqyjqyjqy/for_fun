@@ -69,7 +69,7 @@ def work(ID):
 if __name__ == '__main__':
     file_name = __file__
     len_sys = len (sys.argv)
-    if len_sys != 2 and sys.argv != 3:
+    if len_sys != 2 and len_sys != 3:
         if file_name[0] == '.':
             print ("Usage: %s url" % sys.argv[0])
         else:
