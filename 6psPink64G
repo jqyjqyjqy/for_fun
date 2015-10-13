@@ -1,0 +1,35 @@
+// ==UserScript==
+// @name         6psPink64G
+// @namespace    http://your.homepage/
+// @version      0.1
+// @description  帮刷有没有可以预定现取的货源
+// @author       jq
+// @match        https://reserve.cdn-apple.com/CN/zh_CN/reserve/iPhone*
+// ==/UserScript==
+console.info("hehe");
+function jq_work(){
+    var s = $("#selectStore").html();
+    console.info(s);
+    console.info(s.search("option"));
+    //if (s.search("option") != -1){
+    //    alert("11");
+    //}
+    var hav = false;
+    if (s.search("R471") != -1){
+        alert("杭州西湖");
+        hav = true;
+    }
+    if (s.search("R532") != -1){
+        alert("杭州万达");
+        hav = true;
+    }
+    if (!hav){
+        setTimeout("location.reload();",1000*50);
+    }
+}
+
+$(document).ready(function(){
+    setTimeout(function(){
+        jq_work();
+    },2000);
+});
