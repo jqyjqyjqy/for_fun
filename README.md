@@ -1,3 +1,4 @@
-# for_fun
-some code for fun
-tip: js with Tampermonkey
+for_fun
+====
+
+some code for fun<br> js with Tampermonkey
